@@ -1,10 +1,13 @@
-import Tabs from "react-bootstrap/Tabs";
-import Tab from "react-bootstrap/Tab";
+import FindJob from "./components/FindJob/FindJob";
 
 import "./App.css";
 
 function App() {
-  return <div className="App"></div>;
+  return (
+    <>
+      <FindJob />
+    </>
+  );
 }
 
 export default App;
