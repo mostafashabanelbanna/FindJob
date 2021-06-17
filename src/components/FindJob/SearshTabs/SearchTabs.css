@@ -1,0 +1,37 @@
+.search_tabs_container {
+  position: relative;
+  top: -47px !important;
+}
+
+.search_tabs_container .nav.nav-tabs {
+  height: 42px;
+}
+
+.search_tabs_container .nav.nav-tabs .nav-link {
+  color: #fff;
+  background-color: #000;
+  font-weight: 700;
+  border: none;
+  border-radius: 0;
+}
+
+.search_tabs_container .nav.nav-tabs .nav-link.active {
+  color: #000;
+  background-color: #fff;
+}
+
+.search_tabs_container .nav.nav-tabs .nav-link:first-child {
+  border-top-left-radius: 0.25rem;
+  border-top-right-radius: 0;
+}
+
+.search_tabs_container .nav.nav-tabs .nav-link:last-child {
+  border-top-left-radius: 0;
+  border-top-right-radius: 0.25rem;
+}
+
+.search_tabs_container .tab-content {
+  -moz-box-shadow: 3px 5px 8px rgb(68 68 68 / 18%);
+  -webkit-box-shadow: 3px 5px 8px rgb(68 68 68 / 18%);
+  box-shadow: 3px 5px 8px rgb(68 68 68 / 18%);
+}
