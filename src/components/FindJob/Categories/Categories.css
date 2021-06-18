@@ -1,0 +1,12 @@
+.category:hover,
+.category:hover .text-muted {
+  cursor: pointer;
+  background-color: #5b57d0;
+  color: #fff !important;
+}
+.category_icon {
+  color: #5b57d0;
+}
+.category:hover .category_icon {
+  color: #fff;
+}

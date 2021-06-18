@@ -9,7 +9,7 @@ import RssFeedIcon from "@material-ui/icons/RssFeed";
 import SearchResultsTabel from "./SearchResultsTabel/SearchResultsTabel";
 import { jobsArr } from "../data";
 
-import SearchResultsSkelton from "../../LoadingSkeleton/SearchResultsSkelton";
+import SearchResultsSkelton from "../../../LoadingSkeleton/SearchResultsSkelton";
 
 import "./SearchResultsTabs.css";
 

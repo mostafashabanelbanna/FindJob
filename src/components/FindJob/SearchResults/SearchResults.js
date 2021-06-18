@@ -5,7 +5,7 @@ import SearchResultsTabs from "./SearchResultsTabs/SearchResultsTabs";
 
 const SearchResults = () => {
   return (
-    <Row className="mb-2">
+    <Row className="mb-5">
       <SearchResultsTabs />
     </Row>
   );

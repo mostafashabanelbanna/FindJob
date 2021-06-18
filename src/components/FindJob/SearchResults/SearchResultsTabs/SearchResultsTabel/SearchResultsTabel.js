@@ -24,7 +24,7 @@ const SearchResultsTabel = ({ SearchResultsData }) => {
         <tbody>
           {NewSearchResultsData.map((item, idx) => (
             <tr key={idx}>
-              <td>
+              <td className="py-3">
                 <div className="d-flex">
                   <img
                     src={item.logo}
@@ -45,19 +45,19 @@ const SearchResultsTabel = ({ SearchResultsData }) => {
                   </div>
                 </div>
               </td>
-              <td>
+              <td className="py-3">
                 <span className="text-muted" style={{ fontSize: ".8rem" }}>
                   <LocationOnIcon className="px-1" />
                   {item.jobLocation}
                 </span>
               </td>
-              <td>
+              <td className="py-3">
                 <span className="text-muted" style={{ fontSize: ".8rem" }}>
                   <ScheduleIcon className="px-1" />
                   {item.insertTime}
                 </span>
               </td>
-              <td>
+              <td className="py-3">
                 <div
                   className="text-white job_type_lable"
                   // background color depend on job tybe
@@ -78,7 +78,7 @@ const SearchResultsTabel = ({ SearchResultsData }) => {
                   {item.jobType}
                 </div>
               </td>
-              <td>
+              <td className="py-3">
                 <Dropdown className="function_group">
                   <Dropdown.Toggle id="dropdown-basic">
                     <MoreHorizIcon />
