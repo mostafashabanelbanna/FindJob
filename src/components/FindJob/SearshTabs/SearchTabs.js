@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Tabs from "react-bootstrap/Tabs";
@@ -9,7 +10,6 @@ import Button from "react-bootstrap/Button";
 import SearchIcon from "@material-ui/icons/Search";
 
 import "./SearchTabs.css";
-import { Container } from "react-bootstrap";
 
 const SearchTabs = () => {
   const tabsArr = ["FIND A JOB", "FIND RESUME"];

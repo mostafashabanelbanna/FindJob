@@ -83,7 +83,7 @@ const SearchResultsTabs = () => {
 
   return (
     <Col className="search_results_tabs_container">
-      <div className="my-2 d-flex justify-content-between align-items-center">
+      <div className="my-2 d-flex flex-column-reverse flex-sm-row justify-content-between align-items-center">
         <div>
           We have<span style={{ color: "#4c4fd0" }}> {jobs.length} </span>
           Potential jobs for you.
