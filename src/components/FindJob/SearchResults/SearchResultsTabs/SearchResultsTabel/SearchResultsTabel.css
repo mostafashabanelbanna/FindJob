@@ -1,0 +1,53 @@
+.table td,
+.table th {
+  vertical-align: middle !important;
+}
+
+.table tbody tr:first-child td {
+  border-top: 0;
+}
+.table tbody tr:last-child td {
+  border-bottom: 1px solid #dee2e6;
+}
+.results_company_logo {
+  height: 50px;
+}
+.side_line {
+  position: relative;
+}
+
+.side_line:after {
+  content: "";
+  height: 50%;
+  width: 1px;
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: #6c757d;
+}
+
+.job_type_lable {
+  width: 80px;
+  text-align: center;
+}
+
+.function_group .dropdown-toggle {
+  color: #000;
+  background-color: transparent;
+  border-color: transparent;
+}
+.function_group .dropdown-toggle::after {
+  display: none;
+}
+
+.function_group .dropdown-toggle:hover {
+  background-color: transparent;
+  color: #000;
+  border-radius: 0;
+  border-color: #dee2e6;
+}
+
+.function_group .dropdown-menu.show {
+  min-width: 6rem;
+}

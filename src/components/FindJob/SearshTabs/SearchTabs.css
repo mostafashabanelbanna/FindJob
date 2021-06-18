@@ -9,14 +9,15 @@
 
 .search_tabs_container .nav.nav-tabs .nav-link {
   color: #fff;
-  background-color: #000;
+  background-color: #1e1f21;
+  text-transform: uppercase;
   font-weight: 700;
   border: none;
   border-radius: 0;
 }
 
 .search_tabs_container .nav.nav-tabs .nav-link.active {
-  color: #000;
+  color: #1e1f21;
   background-color: #fff;
 }
 

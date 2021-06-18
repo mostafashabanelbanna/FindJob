@@ -6,6 +6,8 @@ import Tab from "react-bootstrap/Tab";
 import Form from "react-bootstrap/Form";
 import Button from "react-bootstrap/Button";
 
+import SearchIcon from "@material-ui/icons/Search";
+
 import "./SearchTabs.css";
 import { Container } from "react-bootstrap";
 
@@ -127,8 +129,9 @@ const SearchTabs = () => {
                         md={6}
                         className="d-flex pt-3 mb-3 border-right"
                       >
-                        <Button className="black_btn">
-                          <i class="fas fa-search"></i>SEARCH
+                        <Button className="black_btn btn-dark">
+                          <SearchIcon />
+                          SEARCH
                         </Button>
                       </Col>
                     </Row>

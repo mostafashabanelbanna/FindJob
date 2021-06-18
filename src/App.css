@@ -14,21 +14,40 @@
 .form-control:focus {
   color: #495057;
   background-color: #fff;
-  border-color: #000;
+  border-color: #1e1f21;
   outline: 0;
   box-shadow: 0 0 0 0.2rem rgb(79 82 211 / 25%);
 }
 
-/* Custom btn */
+/* Custom btns */
 
-.black_btn {
+.black_btn,
+.indigo_btn,
+.gray_btn {
   width: 100%;
   padding: 1rem;
   border-radius: 0;
-  background-color: #000;
   border: 0;
 }
 
-.black_btn:hover {
-  background-color: #000;
+.black_btn {
+  background-color: #1e1f21;
+}
+.gray_btn {
+  background-color: #f1f2f4;
+}
+
+.black_btn:hover,
+.gray_btn:hover {
+  background-color: #4f52d3;
+}
+.gray_btn:hover {
+  color: #fff;
+}
+
+.indigo_btn {
+  background-color: #4f52d3;
+}
+.indigo_btn:hover {
+  background-color: #1e1f21;
 }
