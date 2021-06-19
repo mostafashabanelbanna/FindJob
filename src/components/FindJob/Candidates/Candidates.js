@@ -2,6 +2,7 @@ import React from "react";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Container from "react-bootstrap/Container";
+import Button from "react-bootstrap/Button";
 
 import { SampleNextArrow } from "../../slick-carousel/Arrows";
 import { SamplePrevArrow } from "../../slick-carousel/Arrows";
@@ -60,7 +61,7 @@ const Candidates = () => {
         xs={12}
         style={{ backgroundColor: "#4f52d3", height: "350px" }}
       ></Col>
-      <Col xs={12} style={{ height: "200px" }}></Col>
+      <Col xs={12} style={{ height: "300px" }}></Col>
       <Container className="candidates_slider_container">
         <Row>
           <Col>
@@ -217,6 +218,11 @@ const Candidates = () => {
                 </div>
               </div>
             </Slider>
+          </Col>
+          <Col sm={12} className="d-flex justify-content-center pt-3 my-4 ">
+            <Button className="black_btn btn-dark" style={{ width: "180px" }}>
+              EXPOLRE ALL
+            </Button>
           </Col>
         </Row>
       </Container>
