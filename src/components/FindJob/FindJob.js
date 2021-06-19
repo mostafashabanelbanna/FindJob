@@ -9,16 +9,22 @@ import SearchResults from "./SearchResults/SearchResults";
 import AdvancedSearch from "./AdvancedSearch/AdvancedSeach";
 import Categories from "./Categories/Categories";
 import FeaturedJobs from "./FeaturedJobs/FeaturedJobs";
+import Subscribe from "./Subscribe/Subscribe";
+import LatestTweets from "./LatestTweets/LatestTweets";
 
 const FindJob = () => (
   <Container fluid>
     <GoogleMap />
     <Container>
       <SearchTabs />
-      <Row className="flex-column-reverse flex-xl-row">
+      <Row>
         <Col xl={8}>
           <SearchResults />
           <Categories />
+          <Row>
+            <Subscribe />
+            <LatestTweets />
+          </Row>
         </Col>
         <Col xl={4}>
           <AdvancedSearch />

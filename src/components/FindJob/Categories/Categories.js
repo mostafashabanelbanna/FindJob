@@ -14,7 +14,7 @@ import "./Categories.css";
 const Categories = () => {
   return (
     <Container fluid>
-      <Row className="">
+      <Row className="mb-5">
         <Col lg={4} md={6} className="p-3 border   category">
           <div className="d-flex align-items-center">
             <div className="p-3">

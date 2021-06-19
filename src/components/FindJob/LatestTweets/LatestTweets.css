@@ -1,0 +1,9 @@
+.latest_tweets {
+  background-color: #3ebff6;
+  color: #fff;
+}
+.tweet_lable {
+  background-color: #212224;
+  /* width: 80px; */
+  text-align: center;
+}

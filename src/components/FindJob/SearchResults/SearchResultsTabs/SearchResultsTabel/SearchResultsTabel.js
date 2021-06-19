@@ -33,7 +33,7 @@ const SearchResultsTabel = ({ SearchResultsData }) => {
                   />
                   <div>
                     <h6>{item.jobTitle}</h6>
-                    <div>
+                    <div className="text-truncate">
                       <span
                         className="pr-2 side_line"
                         style={{ color: "#4c4fd0" }}
@@ -45,13 +45,13 @@ const SearchResultsTabel = ({ SearchResultsData }) => {
                   </div>
                 </div>
               </td>
-              <td className="py-3">
+              <td className="py-3 text-truncate">
                 <span className="text-muted" style={{ fontSize: ".8rem" }}>
                   <LocationOnIcon className="px-1" />
                   {item.jobLocation}
                 </span>
               </td>
-              <td className="py-3">
+              <td className="py-3 text-truncate">
                 <span className="text-muted" style={{ fontSize: ".8rem" }}>
                   <ScheduleIcon className="px-1" />
                   {item.insertTime}
