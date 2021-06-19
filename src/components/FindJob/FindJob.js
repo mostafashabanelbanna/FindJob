@@ -11,6 +11,7 @@ import Categories from "./Categories/Categories";
 import FeaturedJobs from "./FeaturedJobs/FeaturedJobs";
 import Subscribe from "./Subscribe/Subscribe";
 import LatestTweets from "./LatestTweets/LatestTweets";
+import Candidates from "./Candidates/Candidates";
 
 const FindJob = () => (
   <Container fluid>
@@ -32,6 +33,7 @@ const FindJob = () => (
         </Col>
       </Row>
     </Container>
+    <Candidates />
   </Container>
 );
 
