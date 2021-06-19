@@ -10,7 +10,7 @@ export const jobsArr = [
     company: "IBM",
     logo: ibmLogo,
     jobLocation: "Cairo",
-    insertTime: "8 hour ago",
+    insertTime: "8 hours ago",
   },
   {
     jobType: "Internship",
@@ -18,7 +18,7 @@ export const jobsArr = [
     company: "Pepsi",
     logo: pepsiLogo,
     jobLocation: "Cairo",
-    insertTime: "18 hour ago",
+    insertTime: "18 hours ago",
   },
   {
     jobType: "Part Time",

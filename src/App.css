@@ -1,5 +1,6 @@
 @import "bootstrap/dist/css/bootstrap.min.css";
-
+@import "./components/slick-carousel/slick.min.css";
+@import "./components/slick-carousel/slick-theme.min.css";
 /* Search Form */
 
 .form-label {

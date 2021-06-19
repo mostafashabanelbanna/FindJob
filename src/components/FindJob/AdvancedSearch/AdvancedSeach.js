@@ -78,7 +78,7 @@ const AdvancedSearch = () => {
 
   return (
     <>
-      <Form className="border d-xl-block d-none">
+      <Form className="border mb-3 d-xl-block d-none">
         <Container fluid>
           <Row>
             <Col sm={12} className="d-flex px-0 border-bottom">

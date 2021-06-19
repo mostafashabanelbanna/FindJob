@@ -1,0 +1,45 @@
+.featured_jobs {
+  position: relative;
+}
+
+.featured_jobs img {
+  max-height: 150px;
+}
+
+.featured_jobs .mask {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3));
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.featured_jobs .label {
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+  background-color: #2fcdd9;
+  color: #fff;
+}
+
+.featured_jobs .carrousel_caption {
+  overflow-wrap: break-word;
+}
+
+.featured_jobs .slick-next,
+.featured_jobs .slick-prev {
+  top: unset !important;
+  transform: unset;
+  position: absolute;
+}
+
+.featured_jobs .slick-next,
+.featured_jobs .slick-prev {
+  bottom: 20px;
+  left: 60px;
+}
+.featured_jobs .slick-prev {
+  bottom: 20px;
+  left: 4px;
+}

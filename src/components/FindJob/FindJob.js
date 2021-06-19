@@ -8,6 +8,7 @@ import SearchTabs from "./SearshTabs/SearchTabs";
 import SearchResults from "./SearchResults/SearchResults";
 import AdvancedSearch from "./AdvancedSearch/AdvancedSeach";
 import Categories from "./Categories/Categories";
+import FeaturedJobs from "./FeaturedJobs/FeaturedJobs";
 
 const FindJob = () => (
   <Container fluid>
@@ -21,7 +22,7 @@ const FindJob = () => (
         </Col>
         <Col xl={4}>
           <AdvancedSearch />
-          <AdvancedSearch />
+          <FeaturedJobs />
         </Col>
       </Row>
     </Container>
